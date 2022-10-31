@@ -1,15 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import HomePage from './components/HomePage';
+
+const router = createBrowserRouter([
+  {
+    path: "/*",
+    element: <Navigate to={'/home'} />,
+  },
+  {
+    path: "/home",
+    element: <HomePage />,
+  },
+  {
+    path: "/neoflex-invite-test/cart",
+    // element: <CartPage />,
+  },
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
