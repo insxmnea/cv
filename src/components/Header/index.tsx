@@ -1,14 +1,15 @@
 import React from 'react';
+import styles from './Header.module.scss';
 
 function Header() {
   return (
-    <header className="flex py-8 justify-between">
-      <div className=''>klltx</div>
+    <header className={styles.wrapper}>
+      <div className={styles.logo}>klltx</div>
       <div className='flex'>
-        <a className='color-gray'>#home</a>
-        <a>#works</a>
-        <a>#about-me</a>
-        <a>#contacts</a>
+        <a className={styles.current}>home</a>
+        <a className={styles.link}>works</a>
+        <a className={styles.link}>about-me</a>
+        <a className={styles.link}>contacts</a>
         <div>en</div>
       </div>
     </header>

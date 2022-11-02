@@ -3,7 +3,7 @@ import Header from '../Header';
 
 function HomePage() {
   return (
-    <div className='colors-purple'>
+    <div className='wrapper'>
       <Header />
     </div>
   );

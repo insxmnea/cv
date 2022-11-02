@@ -1,0 +1,21 @@
+.wrapper {
+  @apply flex py-8 justify-between;
+
+  .logo {
+    @apply text-white;
+  }
+
+  .link, .current {
+    @apply text-gray mx-4;
+
+    &:before {
+      @apply text-purple;
+
+      content: '#';
+    }
+  }
+
+  .current {
+    @apply text-white;
+  }
+}

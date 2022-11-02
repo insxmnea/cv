@@ -7,12 +7,6 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
-    colors: {
-      purple: "#C778DD",
-      white: "#FFFFFF",
-      "blue-gray": "#282C33",
-      gray: "#ABB2BF",
-    },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       serif: ["Merriweather", "serif"],
@@ -24,6 +18,12 @@ module.exports = {
       },
       borderRadius: {
         "4xl": "2rem",
+      },
+      colors: {
+        purple: "#C778DD",
+        white: "#FFFFFF",
+        "blue-gray": "#282C33",
+        gray: "#ABB2BF",
       },
     },
   },
