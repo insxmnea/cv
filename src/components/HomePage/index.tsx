@@ -7,10 +7,13 @@ function HomePage() {
       <Header />
       <div>
         <div>
-          <h1>Konstantin is a front-end developer</h1>
+          <h1>Konstantin is a <span className='text-purple'>front-end developer</span></h1>
           <p>Coding</p>
-          <button>Contact me</button>
+          <button>Contact me!</button>
         </div>
+      </div>
+      <div>
+        <h1>projects</h1>
       </div>
     </div>
   );

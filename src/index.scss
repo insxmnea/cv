@@ -13,3 +13,15 @@ body {
   width: 1024px;
   margin: 0 auto;
 }
+
+h1 {
+  @apply text-3xl text-white;
+}
+
+p {
+  @apply text-base text-gray;
+}
+
+button {
+  @apply border text-base text-white border-purple py-1 px-4;
+}

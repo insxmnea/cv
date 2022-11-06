@@ -10,7 +10,7 @@ function Header() {
         <a className={styles.link}>works</a>
         <a className={styles.link}>about-me</a>
         <a className={styles.link}>contacts</a>
-        <div>en</div>
+        {/* <div>EN</div> */}
       </div>
     </header>
   );
