@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import ProjectCard from '../ProjectCard';
 
 function HomePage() {
   return (
@@ -8,12 +9,15 @@ function HomePage() {
       <div>
         <div>
           <h1>Konstantin is a <span className='text-purple'>front-end developer</span></h1>
-          <p>Coding</p>
+          <p className='py-6'>Coding</p>
           <button>Contact me!</button>
         </div>
       </div>
       <div>
-        <h1>projects</h1>
+        <h1 className='py-12'>projects</h1>
+        <div className='flex'>
+          <ProjectCard />
+        </div>
       </div>
     </div>
   );

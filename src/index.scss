@@ -25,3 +25,18 @@ p {
 button {
   @apply border text-base text-white border-purple py-1 px-4;
 }
+
+.link,
+.current {
+  @apply text-gray mx-4;
+
+  &:before {
+    @apply text-purple;
+
+    content: '#';
+  }
+}
+
+.current {
+  @apply text-white;
+}
