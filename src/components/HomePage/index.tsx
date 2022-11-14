@@ -7,7 +7,8 @@ interface IProjectData {
   title: string,
   description: string,
   tags: string[],
-  github: string
+  github: string,
+  live?: string
 }
 
 interface IData {
@@ -17,14 +18,15 @@ interface IData {
 const data: IData = require('./../../assets/data/index.json');
 
 const HomePage = () => {
-  const projectCards = data.projects.map((v) => 
+  const projectCards = data.projects.map((v, i) => 
     <ProjectCard 
       description={v.description}
       github={v.github}
+      live={v.live}
       image={v.image}
       tags={v.tags} 
       title={v.title} 
-      key={v.title} />
+      key={i + v.title.trim().split(' ').join('')} />
   );
   // console.log(data.projects);
 
@@ -43,7 +45,7 @@ const HomePage = () => {
         {/* <h1 className='section-title'>skills</h1>
         <h1 className='section-title'>about-me</h1>
         <h1 className='section-title'>contacts</h1> */}
-        <div className='flex flex-wrap justify-between'>
+        <div className='flex flex-wrap justify-between items-start'>
           { projectCards }
         </div>
       </div>
