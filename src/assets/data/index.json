@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+    "title": "Digital school docs",
+    "description": "Detecting objects in user images using the library ml5.js",
+    "tags": ["Sass", "JavaScript", "React"],
+    "github": "https://github.com/klltx/digital-school-docs-client",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/digital-school.jpg"
+    },
+    {
     "title": "Detecting objects on image",
     "description": "Detecting objects in user images using the library ml5.js",
     "tags": ["HTML", "CSS", "JavaScript", "ml5.js"],
@@ -9,8 +16,71 @@
     "image": "https://raw.githubusercontent.com/klltx/detecting-objects-on-image/master/src/images/screenshot.jpg"
     },
     {
+    "title": "Neural network",
+    "description": "JavaScript neural network",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/klltx/neural-network",
+    "live": "https://klltx.github.io/neural-network/",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/static-glitch.gif"
+    },
+    {
+    "title": "Voice messages app",
+    "description": "Sending voice messages app",
+    "tags": ["JavaScript", "React", "Node.js", "Sass"],
+    "github": "https://github.com/klltx/EPAM_JS_Prac_Svetashov_Konstantin",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/voiceMessages.jpg"
+    },
+    {
+    "title": "Movie service",
+    "description": "JavaScript Movie service with admin panel",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/klltx/movie-service",
+    "live": "https://klltx.github.io/movie-service/index.html",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/watchnow.jpg"
+    },
+    {
+    "title": "Weather app",
+    "description": "JS weather app",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/klltx/weather-app",
+    "live": "https://klltx.github.io/weather-app/",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/weather-app.jpg"
+    },
+    {
+    "title": "Wildlife",
+    "description": "Landing page rs school wildlife",
+    "tags": ["HTML", "CSS"],
+    "github": "https://github.com/klltx/wildlife",
+    "live": "https://klltx.github.io/wildlife/",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/wildlife.jpg"
+    },
+    {
+    "title": "JavaScript landing",
+    "description": "Demonstration of javascript capabilities",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/klltx/landing-page-js",
+    "live": "https://klltx.github.io/landing-page-js/",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/js-tutorial.jpg"
+    },
+    {
+    "title": "Decor studio quiz landing",
+    "description": "Find out the cost of interior design",
+    "tags": ["HTML", "CSS"],
+    "github": "https://github.com/klltx/decor-studio-quiz-landing",
+    "live": "https://klltx.github.io/decor-studio-quiz-landing/",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/decor-studio-quiz-landing.jpg"
+    },
+    {
+    "title": "Snake game",
+    "description": "Snake JavaScript game",
+    "tags": ["HTML", "CSS", "JavaScript", "Canvas"],
+    "github": "https://github.com/klltx/snake-js-game",
+    "live": "https://klltx.github.io/snake-js-game/",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/snake.jpg"
+    },
+    {
     "title": "Dragonborn",
-    "description": "🎮 Canvas arcade game",
+    "description": "Canvas arcade game",
     "tags": ["JavaScript", "Canvas"],
     "github": "https://github.com/klltx/dragonborn",
     "live": "https://klltx.github.io/dragonborn/",
