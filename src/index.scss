@@ -40,3 +40,23 @@ button {
 .current {
   @apply text-white;
 }
+
+.section-title {
+  @apply py-12 relative;
+  
+  &:before {
+    @apply text-purple;
+
+    content: '#';
+  }
+
+  &:after {
+    @apply border border-purple border-x-0;
+
+    content: '';
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+}

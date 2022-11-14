@@ -6,9 +6,9 @@ function Header() {
       <div className='text-white'>klltx</div>
       <div className='flex'>
         <a className='current'>home</a>
-        <a className='link'>works</a>
+        {/* <a className='link'>works</a>
         <a className='link'>about-me</a>
-        <a className='link'>contacts</a>
+        <a className='link'>contacts</a> */}
         {/* <div>EN</div> */}
       </div>
     </header>

@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+    "title": "Detecting objects on image",
+    "description": "Detecting objects in user images using the library ml5.js",
+    "tags": ["HTML", "CSS", "JavaScript", "ml5.js", "machine-learning"],
+    "github": "https://github.com/klltx/detecting-objects-on-image",
+    "image": "https://raw.githubusercontent.com/klltx/detecting-objects-on-image/master/src/images/screenshot.jpg"
+    },
+    {
+    "title": "Detecting objects on image",
+    "description": "Detecting objects in user images using the library ml5.js",
+    "tags": ["HTML", "CSS", "JavaScript", "ml5.js", "machine-learning"],
+    "github": "https://github.com/klltx/detecting-objects-on-image",
+    "image": "https://raw.githubusercontent.com/klltx/detecting-objects-on-image/master/src/images/screenshot.jpg"
+    },
+    {
+    "title": "Detecting objects on image",
+    "description": "Detecting objects in user images using the library ml5.js",
+    "tags": ["HTML", "CSS", "JavaScript", "ml5.js", "machine-learning"],
+    "github": "https://github.com/klltx/detecting-objects-on-image",
+    "image": "https://raw.githubusercontent.com/klltx/detecting-objects-on-image/master/src/images/screenshot.jpg"
+    },
+    {
+    "title": "Detecting objects on image",
+    "description": "Detecting objects in user images using the library ml5.js",
+    "tags": ["HTML", "CSS", "JavaScript", "ml5.js", "machine-learning"],
+    "github": "https://github.com/klltx/detecting-objects-on-image",
+    "image": "https://raw.githubusercontent.com/klltx/detecting-objects-on-image/master/src/images/screenshot.jpg"
+    },
+    {
+    "title": "Detecting objects on image",
+    "description": "Detecting objects in user images using the library ml5.js",
+    "tags": ["HTML", "CSS", "JavaScript", "ml5.js", "machine-learning"],
+    "github": "https://github.com/klltx/detecting-objects-on-image",
+    "image": "https://raw.githubusercontent.com/klltx/detecting-objects-on-image/master/src/images/screenshot.jpg"
+    },
+    {
+    "title": "Detecting objects on image",
+    "description": "Detecting objects in user images using the library ml5.js",
+    "tags": ["HTML", "CSS", "JavaScript", "ml5.js", "machine-learning"],
+    "github": "https://github.com/klltx/detecting-objects-on-image",
+    "image": "https://raw.githubusercontent.com/klltx/detecting-objects-on-image/master/src/images/screenshot.jpg"
+    }
+  ]
+}
