@@ -7,11 +7,11 @@ import HomePage from './components/HomePage';
 
 const router = createBrowserRouter([
   {
-    path: "/*",
-    element: <Navigate to={'/home'} />,
+    path: "CV/",
+    element: <Navigate to={'/CV/home'} />,
   },
   {
-    path: "/home",
+    path: "CV/home",
     element: <HomePage />,
   },
   {
