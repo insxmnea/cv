@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+    "title": "YouTube downloader telegram bot",
+    "description": "Record youtube live stream on your local machine with telegram bot",
+    "tags": ["Node.js", "JavaScript"],
+    "github": "https://github.com/klltx/youtube-downloader-bot-server",
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/static-glitch.gif"
+    },
+    {
     "title": "Digital school docs",
     "description": "Detecting objects in user images using the library ml5.js",
     "tags": ["Sass", "JavaScript", "React"],
