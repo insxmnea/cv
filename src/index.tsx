@@ -7,16 +7,12 @@ import HomePage from './components/HomePage';
 
 const router = createBrowserRouter([
   {
-    path: "CV/",
+    path: "/*",
     element: <Navigate to={'/CV/home'} />,
   },
   {
     path: "CV/home",
     element: <HomePage />,
-  },
-  {
-    path: "/neoflex-invite-test/cart",
-    // element: <CartPage />,
   },
 ]);
 
