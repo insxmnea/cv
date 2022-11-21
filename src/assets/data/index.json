@@ -5,7 +5,7 @@
     "description": "Record youtube live stream on your local machine with telegram bot",
     "tags": ["Node.js", "JavaScript"],
     "github": "https://github.com/klltx/youtube-downloader-bot-server",
-    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/static-glitch.gif"
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/youtube-telegram-bot.jpg"
     },
     {
     "title": "Digital school docs",
@@ -28,7 +28,7 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/klltx/neural-network",
     "live": "https://klltx.github.io/neural-network/",
-    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/static-glitch.gif"
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/brain-map-microns-connectome-neurons.jpg"
     },
     {
     "title": "Voice messages app",
@@ -43,7 +43,7 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/klltx/movie-service",
     "live": "https://klltx.github.io/movie-service/index.html",
-    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/watchnow.jpg"
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/cinema.jpg"
     },
     {
     "title": "Weather app",
@@ -51,7 +51,7 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/klltx/weather-app",
     "live": "https://klltx.github.io/weather-app/",
-    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/weather-app.jpg"
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/weather.jpg"
     },
     {
     "title": "Wildlife",
@@ -67,7 +67,7 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/klltx/landing-page-js",
     "live": "https://klltx.github.io/landing-page-js/",
-    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/js-tutorial.jpg"
+    "image": "https://raw.githubusercontent.com/klltx/CV/main/src/assets/images/js-wallpaper.png"
     },
     {
     "title": "Decor studio quiz landing",
