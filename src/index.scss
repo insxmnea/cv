@@ -4,6 +4,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #20242b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body {
   background: #282C33;
   font-family: 'Fira code';
