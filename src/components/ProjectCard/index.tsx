@@ -12,7 +12,7 @@ interface IProjectCard {
 
 const ProjectCard: FC<IProjectCard> = (props) => {
   return (
-    <div className='w-[330px] border border-gray mb-4'>
+    <div className='w-[330px] border border-gray mb-4 shadow-md'>
       <img src={process.env.PUBLIC_URL + props.image} className='h-[200px] overflow-hidden object-cover w-full' alt={props.title} />
       {/* <img src={props.image} className='h-[200px] overflow-hidden object-cover w-full' /> */}
       <div className='border border-gray p-2 border-x-0'>
