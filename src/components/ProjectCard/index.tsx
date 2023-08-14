@@ -19,7 +19,7 @@ const ProjectCard: FC<IProjectCard> = (props) => {
         <p>{ props.tags.join(' ') }</p>
       </div>
       <div className='p-4'>
-        <h1 className='text-2xl'>{props.title}</h1>
+        <h1 className='text-xl sm:text-2xl'>{props.title}</h1>
         <p className='py-6'>{props.description}</p>
 
         <a className='border text-base text-white border-purple py-2 px-5' 

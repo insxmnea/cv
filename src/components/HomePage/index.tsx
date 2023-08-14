@@ -45,7 +45,7 @@ const HomePage = () => {
         {/* <h1 className='section-title'>skills</h1>
         <h1 className='section-title'>about-me</h1>
         <h1 className='section-title'>contacts</h1> */}
-        <div className='flex flex-wrap justify-between items-start'>
+        <div className='flex flex-wrap justify-center lg:justify-between items-start'>
           { projectCards }
         </div>
       </div>
