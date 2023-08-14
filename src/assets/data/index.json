@@ -8,7 +8,7 @@
         "JavaScript"
       ],
       "github": "https://github.com/1317n0d3/youtube-downloader-telegram-bot",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/youtube-telegram-bot.jpg"
+      "image": "/images/youtube-telegram-bot.jpg"
     },
     {
       "title": "Digital school docs",
@@ -19,7 +19,7 @@
         "React"
       ],
       "github": "https://github.com/1317n0d3/digital-school-docs-client",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/digital-school.jpg"
+      "image": "/images/digital-school.jpg"
     },
     {
       "title": "Detecting objects on image",
@@ -32,7 +32,7 @@
       ],
       "github": "https://github.com/1317n0d3/detecting-objects-on-image",
       "live": "https://1317n0d3.github.io/detecting-objects-on-image/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/detecting-objects-on-image/master/src/images/screenshot.jpg"
+      "image": "/images/neuralml5.jpg"
     },
     {
       "title": "Neural network",
@@ -44,7 +44,7 @@
       ],
       "github": "https://github.com/1317n0d3/neural-network",
       "live": "https://1317n0d3.github.io/neural-network/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/brain-map-microns-connectome-neurons.jpg"
+      "image": "/images/brain-map-microns-connectome-neurons.jpg"
     },
     {
       "title": "Voice messages app",
@@ -56,7 +56,7 @@
         "Sass"
       ],
       "github": "https://github.com/1317n0d3/EPAM_JS_Prac_Svetashov_Konstantin",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/voiceMessages.jpg"
+      "image": "/images/voiceMessages.jpg"
     },
     {
       "title": "Movie service",
@@ -68,7 +68,7 @@
       ],
       "github": "https://github.com/1317n0d3/movie-service",
       "live": "https://1317n0d3.github.io/movie-service/index.html",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/cinema.jpg"
+      "image": "/images/cinema.jpg"
     },
     {
       "title": "Weather app",
@@ -80,7 +80,7 @@
       ],
       "github": "https://github.com/1317n0d3/weather-app",
       "live": "https://1317n0d3.github.io/weather-app/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/weather.jpg"
+      "image": "/images/weather.jpg"
     },
     {
       "title": "Wildlife",
@@ -91,7 +91,7 @@
       ],
       "github": "https://github.com/1317n0d3/wildlife",
       "live": "https://1317n0d3.github.io/wildlife/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/wildlife.jpg"
+      "image": "/images/wildlife.jpg"
     },
     {
       "title": "JavaScript landing",
@@ -103,7 +103,7 @@
       ],
       "github": "https://github.com/1317n0d3/landing-page-js",
       "live": "https://1317n0d3.github.io/landing-page-js/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/js-wallpaper.png"
+      "image": "/images/js-wallpaper.png"
     },
     {
       "title": "Decor studio quiz landing",
@@ -114,7 +114,7 @@
       ],
       "github": "https://github.com/1317n0d3/decor-studio-quiz-landing",
       "live": "https://1317n0d3.github.io/decor-studio-quiz-landing/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/decor-studio-quiz-landing.jpg"
+      "image": "/images/decor-studio-quiz-landing.jpg"
     },
     {
       "title": "Snake game",
@@ -127,7 +127,7 @@
       ],
       "github": "https://github.com/1317n0d3/snake-js-game",
       "live": "https://1317n0d3.github.io/snake-js-game/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/CV/main/src/assets/images/snake.jpg"
+      "image": "/images/snake.jpg"
     },
     {
       "title": "Dragonborn",
@@ -138,7 +138,7 @@
       ],
       "github": "https://github.com/1317n0d3/dragonborn",
       "live": "https://1317n0d3.github.io/dragonborn/",
-      "image": "https://raw.githubusercontent.com/1317n0d3/dragonborn/master/img/unnamed.gif"
+      "image": "/images/unnamed.gif"
     }
   ]
 }
