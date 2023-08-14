@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createHashRouter, Navigate, RouterProvider } from 'react-router-dom';
 import HomePage from './components/HomePage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/*",
-    element: <Navigate to={'/CV/home'} />,
+    element: <Navigate to={'/home'} />,
   },
   {
-    path: "CV/home",
+    path: "home",
     element: <HomePage />,
   },
 ]);
