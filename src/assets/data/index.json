@@ -1,6 +1,30 @@
 {
   "projects": [
     {
+      "title": "WildBerries cart",
+      "description": "Landing page Wildberries cart",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive"
+      ],
+      "github": "https://github.com/1317n0d3/wb-l0",
+      "live": "https://1317n0d3.github.io/wb-l0/",
+      "image": "/images/wb-l0.png"
+    },
+    {
+      "title": "Telegram news bot",
+      "description": "Telegram bot for parse news from websites and post it to your group or channel",
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "Electron.js"
+      ],
+      "github": "https://github.com/1317n0d3/telegram-news-bot",
+      "image": "/images/telegram-news-bot.jpg"
+    },
+    {
       "title": "YouTube downloader telegram bot",
       "description": "Record youtube live stream on your local machine with telegram bot",
       "tags": [
@@ -9,6 +33,18 @@
       ],
       "github": "https://github.com/1317n0d3/youtube-downloader-telegram-bot",
       "image": "/images/youtube-telegram-bot.jpg"
+    },
+    {
+      "title": "QPICK",
+      "description": "Online store with shopping cart",
+      "tags": [
+        "Styled-components",
+        "JavaScript",
+        "React"
+      ],
+      "github": "https://github.com/1317n0d3/neoflex-invite-test",
+      "live": "https://1317n0d3.github.io/neoflex-invite-test/",
+      "image": "/images/neoflex-invite-test.png"
     },
     {
       "title": "Digital school docs",
@@ -57,6 +93,41 @@
       ],
       "github": "https://github.com/1317n0d3/EPAM_JS_Prac_Svetashov_Konstantin",
       "image": "/images/voiceMessages.jpg"
+    },
+    {
+      "title": "Search github repositories",
+      "description": "Web app for searching github repositories",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "github": "https://github.com/1317n0d3/search-gh-repos",
+      "live": "https://1317n0d3.github.io/search-gh-repos",
+      "image": "/images/search-gh-repos.png"
+    },
+    {
+      "title": "Beauty",
+      "description": "Beauty landing page",
+      "tags": [
+        "HTML",
+        "CSS",
+        "Responsive"
+      ],
+      "github": "https://github.com/1317n0d3/beauty-landing-page",
+      "live": "https://1317n0d3.github.io/beauty-landing-page",
+      "image": "/images/beauty-landing-page.png"
+    },
+    {
+      "title": "Conquest",
+      "description": "Conquest landing page",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "github": "https://github.com/1317n0d3/conquest-landing-page",
+      "live": "https://1317n0d3.github.io/conquest-landing-page",
+      "image": "/images/conquest-landing-page.png"
     },
     {
       "title": "Movie service",
