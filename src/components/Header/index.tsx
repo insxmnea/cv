@@ -1,35 +1,19 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
-import { color } from "../../constants/colors";
+import styles from "./Header.module.scss";
 
 function Header() {
   return (
-    <HeaderElement>
-      <Title>1317n0d3</Title>
-      <Links>
+    <header>
+      <div className={styles.title}>1317n0d3</div>
+      <div className={styles.links}>
         {/* <Link to={'/home'} className='current'>home</Link> */}
         {/* <a className='link'>works</a>
         <a className='link'>about-me</a>
         <a className='link'>contacts</a> */}
         {/* <div>EN</div> */}
-      </Links>
-    </HeaderElement>
+      </div>
+    </header>
   );
 }
-
-const HeaderElement = styled.header`
-  display: flex;
-  justify-content: space-between;
-  padding: 32px 0;
-`;
-
-const Links = styled.div`
-  display: flex;
-`;
-
-const Title = styled.div`
-  color: ${color.white};
-`;
 
 export default Header;

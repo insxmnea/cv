@@ -1,0 +1,41 @@
+@import '../../constants/colors.scss';
+@import '../../constants/breakpoints.scss';
+
+.projects {
+  background-color: $darkGray;
+  padding: 0 32px;
+  border-radius: 8px;
+}
+
+.title {
+  position: relative;
+  padding: 48px 0;
+
+  &:before {
+    color: $purple;
+    content: "#";
+  }
+
+  &:after {
+    content: "";
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border: 1px solid $purple;
+    border-left: 0;
+    border-right: 0;
+  }
+}
+
+.projectCards {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+
+  @include rwd($tablet) {
+    justify-content: space-between;
+  }
+}

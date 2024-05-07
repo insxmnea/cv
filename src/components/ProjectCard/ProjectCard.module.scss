@@ -1,0 +1,73 @@
+@import '../../constants/colors.scss';
+@import '../../constants/breakpoints.scss';
+
+.wrapper {
+  width: 330px;
+  border: 1px solid $gray;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.imageWrapper {
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  transition: 0.2s;
+
+  &:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    object-fit: cover;
+    filter: brightness(85%);
+  }
+}
+
+.tags {
+  border: 1px solid $gray;
+  padding: 8px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.info {
+  padding: 16px;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 28px;
+
+  @include rwd($tablet) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.description {
+  padding: 24px 0;
+}
+
+.linkButton {
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid $purple;
+  color: $white;
+  padding: 8px 20px;
+  margin-right: 8px;
+  border-radius: 4px;
+  transition: 0.1s;
+
+  &:hover {
+    background-color: $purple;
+    color: $white;
+    transition: 0.4s;
+    border: 1px solid $purple;
+  }
+}
