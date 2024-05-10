@@ -7,8 +7,22 @@ const Footer = () => {
     <footer className={styles.wrapper}>
       <p>© 2024 all rights reserved</p>
       <div className={styles.iconWrapper}>
-        <GitHubLogo className={styles.icon} />
-        <TelegramLogo className={styles.icon} />
+        <a
+          className={styles.iconLink}
+          href="https://github.com/1317n0d3"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GitHubLogo className={styles.icon} />
+        </a>
+        <a
+          className={styles.iconLink}
+          href="https://t.me/insxmnea"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <TelegramLogo className={styles.icon} />
+        </a>
       </div>
     </footer>
   );

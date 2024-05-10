@@ -1,3 +1,5 @@
+@import './constants/colors.scss';
+
 * {
   padding: 0;
   margin: 0;
@@ -7,11 +9,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #20242b;
+  background: $darkGray;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -26,7 +28,7 @@
 }
 
 body {
-  background: #0a0a0a;
+  background: $black;
   // background-image: url('./../public/glitch.gif');
   // background: #282C33;
   font-family: 'Fira code';
@@ -38,36 +40,36 @@ body {
 }
 
 h1 {
-  color: white;
+  color: $white;
   font-size: 30px;
   line-height: 36px;
 }
 
 p {
-  color: rgb(171 178 191);
+  color: $gray;
   font-size: 16px;
   line-height: 24px;
 }
 
 button {
-  border: solid 1px rgb(199 120 221);
+  border: solid 1px $purple;
   padding: 8px 20px;
-  color: white;
+  color: $white;
   font-size: 16px;
   line-height: 24px;
 }
 
 .link,
 .current {
-  color: rgb(171 178 191);
+  color: $gray;
   margin: 0px 16px;
 
   &:before {
-    color: rgb(199 120 221);
+    color: $purple;
     content: '#';
   }
 }
 
 .current {
-  color: white;
+  color: $white;
 }

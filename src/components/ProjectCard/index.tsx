@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import styles from "./ProjectCard.module.scss";
 
 interface IProjectCard {
@@ -30,12 +30,22 @@ const ProjectCard: FC<IProjectCard> = (props) => {
         <h1 className={styles.title}>{props.title}</h1>
         <p className={styles.description}>{props.description}</p>
 
-        <a className={styles.linkButton} href={props.github} target="_blank">
+        <a
+          className={styles.linkButton}
+          href={props.github}
+          target="_blank"
+          rel="noreferrer"
+        >
           Github
         </a>
 
         {props.live ? (
-          <a className={styles.linkButton} href={props.live} target="_blank">
+          <a
+            className={styles.linkButton}
+            href={props.live}
+            target="_blank"
+            rel="noreferrer"
+          >
             Live
           </a>
         ) : (
