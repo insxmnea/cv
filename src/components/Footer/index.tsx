@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.iconWrapper}>
         <a
           className={styles.iconLink}
-          href="https://github.com/1317n0d3"
+          href="https://github.com/insxmnea"
           target="_blank"
           rel="noreferrer"
         >

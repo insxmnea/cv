@@ -4,7 +4,7 @@ import styles from "./Header.module.scss";
 function Header() {
   return (
     <header>
-      <div className={styles.title}>1317n0d3</div>
+      <div className={styles.title}>insxmnea</div>
       <div className={styles.links}>
         {/* <Link to={'/home'} className='current'>home</Link> */}
         {/* <a className='link'>works</a>
