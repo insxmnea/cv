@@ -1,6 +1,32 @@
 {
   "projects": [
     {
+      "title": "Parallel recovery estimation",
+      "description": "Estimation of the probabilities of the implementation of a five-element cross section for a parallel recovery strategy",
+      "tags": [
+        "JavaScript",
+        "Chart.js",
+        "Algorithms"
+      ],
+      "github": "https://github.com/insxmnea/parallel-recovery-estimation",
+      "live": "https://insxmnea.github.io/parallel-recovery-estimation/",
+      "image": "/images/parallel-recovery-estimation.jpg"
+    },
+    {
+      "title": "Divergent blog",
+      "description": "A simple blog website (test task)",
+      "tags": [
+        "TypeScript",
+        "React",
+        "redux-toolkit",
+        "scss",
+        "react-router-dom"
+      ],
+      "github": "https://github.com/insxmnea/divergent-blog",
+      "live": "https://insxmnea.github.io/divergent-blog/",
+      "image": "/images/divergent-blog.jpg"
+    },
+    {
       "title": "WildBerries cart",
       "description": "Landing page Wildberries cart",
       "tags": [
@@ -64,7 +90,8 @@
         "HTML",
         "CSS",
         "JavaScript",
-        "ml5.js"
+        "ml5.js",
+        "Algorithms"
       ],
       "github": "https://github.com/insxmnea/detecting-objects-on-image",
       "live": "https://insxmnea.github.io/detecting-objects-on-image/",
@@ -76,7 +103,8 @@
       "tags": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "Algorithms"
       ],
       "github": "https://github.com/insxmnea/neural-network",
       "live": "https://insxmnea.github.io/neural-network/",
