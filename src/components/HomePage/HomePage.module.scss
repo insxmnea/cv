@@ -1,15 +1,16 @@
 @import '../../constants/colors.scss';
 @import '../../constants/breakpoints.scss';
+@import '../../constants/dimensions.scss';
 
 .projects {
   background-color: $darkGray;
-  padding: 0 32px;
+  padding: 48px 32px 32px;
   border-radius: 8px;
 }
 
 .title {
   position: relative;
-  padding: 48px 0;
+  margin-bottom: 48px;
 
   &:before {
     color: $purple;
@@ -29,13 +30,14 @@
 }
 
 .projectCards {
-  
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, $projectCardWidth);
+  gap: 32px;
   justify-content: center;
-  align-items: flex-start;
+  justify-items: center;
+  align-items: start;
 
-  @include rwd($tablet) {
+  @include rwd($laptop) {
     justify-content: space-between;
   }
 }
