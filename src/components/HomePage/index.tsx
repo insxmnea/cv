@@ -46,9 +46,13 @@ const HomePage = () => {
         {/* <h1 className='section-title'>skills</h1>
         <h1 className='section-title'>about-me</h1>
         <h1 className='section-title'>contacts</h1> */}
-        <div className={styles.projectCards}>
-          {projects ? createProjectCards(projects) : <div>Loading...</div>}
-        </div>
+        {projects ? (
+          <div className={styles.projectCards}>
+            {createProjectCards(projects)}
+          </div>
+        ) : (
+          <div>Loading...</div>
+        )}
       </div>
       <Footer />
     </div>
