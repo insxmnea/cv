@@ -2,47 +2,38 @@ import { FC } from "react";
 // import { Link } from "react-router-dom";
 import styles from "./ProjectCard.module.scss";
 
-interface IProjectCard {
-  image: string;
-  title: string;
-  description: string;
-  tags: string[];
-  github: string;
-  live?: string;
-}
-
-const ProjectCard: FC<IProjectCard> = (props) => {
+const ProjectCard: FC<TProjectData> = (props) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageWrapper}>
         <img
           className={styles.image}
           src={process.env.PUBLIC_URL + props.image}
-          alt={props.title}
+          alt={props.name}
           draggable="false"
         />
       </div>
 
       <div className={styles.tags}>
-        <p>{props.tags.join(" ")}</p>
+        <p>{props.topics.join(" ")}</p>
       </div>
       <div className={styles.info}>
-        <h1 className={styles.title}>{props.title}</h1>
+        <h1 className={styles.title}>{props.name}</h1>
         <p className={styles.description}>{props.description}</p>
 
         <a
           className={styles.linkButton}
-          href={props.github}
+          href={props.html_url}
           target="_blank"
           rel="noreferrer"
         >
           Github
         </a>
 
-        {props.live ? (
+        {props.homepage ? (
           <a
             className={styles.linkButton}
-            href={props.live}
+            href={props.homepage}
             target="_blank"
             rel="noreferrer"
           >

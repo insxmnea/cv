@@ -2,54 +2,53 @@ import Header from "../Header";
 import ProjectCard from "../ProjectCard";
 import Footer from "../Footer";
 import styles from "./HomePage.module.scss";
+import { useEffect, useState } from "react";
+import mergeProjectData from "../../utils/mergeProjectData";
 
-interface IProjectData {
-  image: string;
-  title: string;
-  description: string;
-  tags: string[];
-  github: string;
-  live?: string;
-}
-
-interface IData {
-  projects: IProjectData[];
-}
-
-const data: IData = require("./../../assets/data/index.json");
+const initData: TInitData = require("./../../assets/data/index.json");
 
 const HomePage = () => {
-  const projectCards = data.projects.map((v, i) => (
-    <ProjectCard
-      description={v.description}
-      github={v.github}
-      live={v.live}
-      image={v.image}
-      tags={v.tags}
-      title={v.title}
-      key={i + v.title.trim().split(" ").join("")}
-    />
-  ));
-  // console.log(data.projects);
+  const [projects, setProjects] = useState<TProjectData[]>();
+
+  useEffect(() => {
+    fetch(
+      `https://api.github.com/users/${initData.owner.name}/repos?sort=created&per_page=100`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setProjects([...mergeProjectData(initData, data).projects]);
+      });
+  }, []);
+
+  const createProjectCards = (projects: TProjectData[]) => {
+    return projects.map((project: TProjectData) => (
+      <ProjectCard
+        id={project.id}
+        name={project.name}
+        description={project.description}
+        topics={project.topics}
+        html_url={project.html_url}
+        homepage={project.homepage}
+        stargazers_count={project.stargazers_count}
+        forks_count={project.forks_count}
+        image={project.image}
+        created_at={project.created_at}
+        key={project.id.toString()}
+      />
+    ));
+  };
 
   return (
     <div className="wrapper">
       <Header />
-      <div>
-        <div>
-          {/* <h1>
-            Konstantin is a <Subtitle>front-end developer</Subtitle>
-          </h1> */}
-          {/* <p className='py-6'>Coding</p> */}
-          {/* <button>Contact me!</button> */}
-        </div>
-      </div>
       <div className={styles.projects}>
         <h1 className={styles.title}>projects</h1>
         {/* <h1 className='section-title'>skills</h1>
         <h1 className='section-title'>about-me</h1>
         <h1 className='section-title'>contacts</h1> */}
-        <div className={styles.projectCards}>{projectCards}</div>
+        <div className={styles.projectCards}>
+          {projects ? createProjectCards(projects) : <div>Loading...</div>}
+        </div>
       </div>
       <Footer />
     </div>

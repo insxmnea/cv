@@ -1,242 +1,86 @@
 {
+  "owner": {
+    "name": "insxmnea"
+  },
   "projects": [
     {
-      "title": "Parallel recovery estimation",
-      "description": "Estimation of the probabilities of the implementation of a five-element cross section for a parallel recovery strategy",
-      "tags": [
-        "JavaScript",
-        "Chart.js",
-        "Algorithms"
-      ],
-      "github": "https://github.com/insxmnea/parallel-recovery-estimation",
-      "live": "https://insxmnea.github.io/parallel-recovery-estimation/",
+      "name": "parallel-recovery-estimation",
       "image": "/images/parallel-recovery-estimation.jpg"
     },
     {
-      "title": "Divergent blog",
-      "description": "A simple blog website (test task)",
-      "tags": [
-        "TypeScript",
-        "React",
-        "redux-toolkit",
-        "scss",
-        "react-router-dom"
-      ],
-      "github": "https://github.com/insxmnea/divergent-blog",
-      "live": "https://insxmnea.github.io/divergent-blog/",
+      "name": "divergent-blog",
       "image": "/images/divergent-blog.jpg"
     },
     {
-      "title": "WildBerries cart",
-      "description": "Landing page Wildberries cart",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Responsive"
-      ],
-      "github": "https://github.com/insxmnea/wb-l0",
-      "live": "https://insxmnea.github.io/wb-l0/",
+      "name": "wb-l0",
       "image": "/images/wb-l0.png"
     },
     {
-      "title": "Telegram news bot",
-      "description": "Telegram bot for parse news from websites and post it to your group or channel",
-      "tags": [
-        "Node.js",
-        "JavaScript",
-        "Electron.js"
-      ],
-      "github": "https://github.com/insxmnea/telegram-news-bot",
+      "name": "telegram-news-bot",
       "image": "/images/telegram-news-bot.jpg"
     },
     {
-      "title": "YouTube downloader telegram bot",
-      "description": "Record youtube live stream on your local machine with telegram bot",
-      "tags": [
-        "Node.js",
-        "JavaScript"
-      ],
-      "github": "https://github.com/insxmnea/youtube-downloader-telegram-bot",
+      "name": "youtube-downloader-telegram-bot",
       "image": "/images/youtube-telegram-bot.jpg"
     },
     {
-      "title": "QPICK",
-      "description": "Online store with shopping cart",
-      "tags": [
-        "Styled-components",
-        "JavaScript",
-        "React"
-      ],
-      "github": "https://github.com/insxmnea/neoflex-invite-test",
-      "live": "https://insxmnea.github.io/neoflex-invite-test/",
+      "name": "neoflex-invite-test",
       "image": "/images/neoflex-invite-test.png"
     },
     {
-      "title": "Digital school docs",
-      "description": "Detecting objects in user images using the library ml5.js",
-      "tags": [
-        "Sass",
-        "JavaScript",
-        "React"
-      ],
-      "github": "https://github.com/insxmnea/digital-school-docs-client",
+      "name": "digital-school-docs-client",
       "image": "/images/digital-school.jpg"
     },
     {
-      "title": "Detecting objects on image",
-      "description": "Detecting objects in user images using the library ml5.js",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "ml5.js",
-        "Algorithms"
-      ],
-      "github": "https://github.com/insxmnea/detecting-objects-on-image",
-      "live": "https://insxmnea.github.io/detecting-objects-on-image/",
+      "name": "detecting-objects-on-image",
       "image": "/images/neuralml5.jpg"
     },
     {
-      "title": "Neural network",
-      "description": "JavaScript neural network",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Algorithms"
-      ],
-      "github": "https://github.com/insxmnea/neural-network",
-      "live": "https://insxmnea.github.io/neural-network/",
+      "name": "neural-network",
       "image": "/images/brain-map-microns-connectome-neurons.jpg"
     },
     {
-      "title": "Voice messages app",
-      "description": "Sending voice messages app",
-      "tags": [
-        "JavaScript",
-        "React",
-        "Node.js",
-        "Sass"
-      ],
-      "github": "https://github.com/insxmnea/EPAM_JS_Prac_Svetashov_Konstantin",
+      "name": "EPAM_JS_Prac_Svetashov_Konstantin",
       "image": "/images/voiceMessages.jpg"
     },
     {
-      "title": "Search github repositories",
-      "description": "Web app for searching github repositories",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "github": "https://github.com/insxmnea/search-gh-repos",
-      "live": "https://insxmnea.github.io/search-gh-repos",
+      "name": "search-gh-repos",
       "image": "/images/search-gh-repos.png"
     },
     {
-      "title": "Beauty",
-      "description": "Beauty landing page",
-      "tags": [
-        "HTML",
-        "CSS",
-        "Responsive"
-      ],
-      "github": "https://github.com/insxmnea/beauty-landing-page",
-      "live": "https://insxmnea.github.io/beauty-landing-page",
+      "name": "beauty-landing-page",
       "image": "/images/beauty-landing-page.png"
     },
     {
-      "title": "Conquest",
-      "description": "Conquest landing page",
-      "tags": [
-        "HTML",
-        "CSS"
-      ],
-      "github": "https://github.com/insxmnea/conquest-landing-page",
-      "live": "https://insxmnea.github.io/conquest-landing-page",
+      "name": "conquest-landing-page",
       "image": "/images/conquest-landing-page.png"
     },
     {
-      "title": "Movie service",
-      "description": "JavaScript Movie service with admin panel",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "github": "https://github.com/insxmnea/movie-service",
-      "live": "https://insxmnea.github.io/movie-service/index.html",
+      "name": "movie-service",
       "image": "/images/cinema.jpg"
     },
     {
-      "title": "Weather app",
-      "description": "JS weather app",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "github": "https://github.com/insxmnea/weather-app",
-      "live": "https://insxmnea.github.io/weather-app/",
+      "name": "weather-app",
       "image": "/images/weather.jpg"
     },
     {
-      "title": "Wildlife",
-      "description": "Landing page rs school wildlife",
-      "tags": [
-        "HTML",
-        "CSS"
-      ],
-      "github": "https://github.com/insxmnea/wildlife",
-      "live": "https://insxmnea.github.io/wildlife/",
+      "name": "wildlife",
       "image": "/images/wildlife.jpg"
     },
     {
-      "title": "JavaScript landing",
-      "description": "Demonstration of javascript capabilities",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "github": "https://github.com/insxmnea/landing-page-js",
-      "live": "https://insxmnea.github.io/landing-page-js/",
+      "name": "landing-page-js",
       "image": "/images/js-wallpaper.png"
     },
     {
-      "title": "Decor studio quiz landing",
-      "description": "Find out the cost of interior design",
-      "tags": [
-        "HTML",
-        "CSS"
-      ],
-      "github": "https://github.com/insxmnea/decor-studio-quiz-landing",
-      "live": "https://insxmnea.github.io/decor-studio-quiz-landing/",
+      "name": "decor-studio-quiz-landing",
       "image": "/images/decor-studio-quiz-landing.jpg"
     },
     {
-      "title": "Snake game",
-      "description": "Snake JavaScript game",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Canvas"
-      ],
-      "github": "https://github.com/insxmnea/snake-js-game",
-      "live": "https://insxmnea.github.io/snake-js-game/",
+      "name": "snake-js-game",
       "image": "/images/snake.jpg"
     },
     {
-      "title": "Dragonborn",
-      "description": "Canvas arcade game",
-      "tags": [
-        "JavaScript",
-        "Canvas"
-      ],
-      "github": "https://github.com/insxmnea/dragonborn",
-      "live": "https://insxmnea.github.io/dragonborn/",
+      "name": "dragonborn",
       "image": "/images/unnamed.gif"
     }
   ]
