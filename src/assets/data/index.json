@@ -4,6 +4,14 @@
   },
   "projects": [
     {
+      "name": "graphiql-app",
+      "image": "/images/graphiql-app.jpg"
+    },
+    {
+      "name": "insxmnea-REACT2024Q3",
+      "image": "/images/insxmnea-REACT2024Q3.jpg"
+    },
+    {
       "name": "parallel-recovery-estimation",
       "image": "/images/parallel-recovery-estimation.jpg"
     },

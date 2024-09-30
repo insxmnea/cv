@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import styles from "./HomePage.module.scss";
 import { useEffect, useState } from "react";
 import mergeProjectData from "../../utils/mergeProjectData";
+import { Loader } from "../Loader";
 
 const initData: TInitData = require("./../../assets/data/index.json");
 
@@ -51,7 +52,7 @@ const HomePage = () => {
             {createProjectCards(projects)}
           </div>
         ) : (
-          <div>Loading...</div>
+          <Loader />
         )}
       </div>
       <Footer />
