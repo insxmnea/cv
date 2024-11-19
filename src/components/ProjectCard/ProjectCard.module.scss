@@ -1,11 +1,10 @@
-@import '../../constants/colors.scss';
-@import '../../constants/breakpoints.scss';
-@import '../../constants/dimensions.scss';
+@import "../../constants/breakpoints.scss";
+@import "../../constants/dimensions.scss";
 
 .wrapper {
   width: $projectCardWidth;
-  border: 1px solid $gray;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -30,7 +29,7 @@
 }
 
 .tags {
-  border: 1px solid $gray;
+  border: var(--border);
   padding: 8px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -57,17 +56,17 @@
 .linkButton {
   font-size: 16px;
   line-height: 24px;
-  border: 1px solid $purple;
-  color: $white;
+  border: var(--border-purple);
+  color: var(--color-white);
   padding: 8px 20px;
   margin-right: 8px;
   border-radius: 4px;
   transition: 0.1s;
 
   &:hover {
-    background-color: $purple;
-    color: $white;
+    background-color: var(--color-purple);
+    color: var(--color-white);
     transition: 0.4s;
-    border: 1px solid $purple;
+    border: var(--border-purple);
   }
 }

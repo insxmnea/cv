@@ -1,11 +1,20 @@
-@import '../../constants/colors.scss';
-@import '../../constants/breakpoints.scss';
-@import '../../constants/dimensions.scss';
+@import "../../constants/breakpoints.scss";
+@import "../../constants/dimensions.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 83%;
+  margin: 0 auto;
+  min-height: 100vh;
+}
 
 .projects {
-  background-color: $darkGray;
+  background-color: var(--color-gray-2);
   padding: 48px 32px 32px;
   border-radius: 8px;
+  min-height: 70vh;
 }
 
 .title {
@@ -13,7 +22,7 @@
   margin-bottom: 48px;
 
   &:before {
-    color: $purple;
+    color: var(--color-purple);
     content: "#";
   }
 
@@ -23,7 +32,7 @@
     position: absolute;
     right: 0;
     top: 50%;
-    border: 1px solid $purple;
+    border: var(--border-purple);
     border-left: 0;
     border-right: 0;
   }

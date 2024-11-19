@@ -1,14 +1,12 @@
-@import '../../constants/colors.scss';
-
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 12px;
-  background-color: $darkGray;
+  background-color: var(--color-gray-2);
   padding: 12px 32px;
   border-radius: 8px;
-  color: $white;
+  color: var(--color-white);
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
@@ -21,14 +19,14 @@
 }
 
 .icon {
-  fill: $gray;
+  fill: var(--color-white);
   width: 24px;
   height: 24px;
   cursor: pointer;
   transition: 0.2s;
 
   &:hover {
-    fill: $white;
+    fill: var(--color-gray-1);
     transition: 0.2s;
   }
 }

@@ -40,7 +40,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       <Header />
       <div className={styles.projects}>
         <h1 className={styles.title}>projects</h1>
