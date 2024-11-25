@@ -4,6 +4,10 @@
   },
   "projects": [
     {
+      "name": "telecom-chat",
+      "image": "/images/telecom-chat.jpg"
+    },
+    {
       "name": "graphiql-app",
       "image": "/images/graphiql-app.jpg"
     },
@@ -24,32 +28,12 @@
       "image": "/images/wb-l0.png"
     },
     {
-      "name": "telegram-news-bot",
-      "image": "/images/telegram-news-bot.jpg"
-    },
-    {
-      "name": "youtube-downloader-telegram-bot",
-      "image": "/images/youtube-telegram-bot.jpg"
-    },
-    {
       "name": "neoflex-invite-test",
       "image": "/images/neoflex-invite-test.png"
     },
     {
-      "name": "digital-school-docs-client",
-      "image": "/images/digital-school.jpg"
-    },
-    {
       "name": "detecting-objects-on-image",
       "image": "/images/neuralml5.jpg"
-    },
-    {
-      "name": "neural-network",
-      "image": "/images/brain-map-microns-connectome-neurons.jpg"
-    },
-    {
-      "name": "epam-js-practice",
-      "image": "/images/voiceMessages.jpg"
     },
     {
       "name": "search-gh-repos",
@@ -64,18 +48,6 @@
       "image": "/images/conquest-landing-page.png"
     },
     {
-      "name": "movie-service",
-      "image": "/images/cinema.jpg"
-    },
-    {
-      "name": "weather-app",
-      "image": "/images/weather.jpg"
-    },
-    {
-      "name": "wildlife",
-      "image": "/images/wildlife.jpg"
-    },
-    {
       "name": "landing-page-js",
       "image": "/images/js-wallpaper.png"
     },
@@ -86,10 +58,6 @@
     {
       "name": "snake-js-game",
       "image": "/images/snake.jpg"
-    },
-    {
-      "name": "dragonborn",
-      "image": "/images/unnamed.gif"
     }
   ]
 }
