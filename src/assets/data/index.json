@@ -4,6 +4,10 @@
   },
   "projects": [
     {
+      "name": "rick-morty-characters",
+      "image": "/images/rick-morty-characters.jpg"
+    },
+    {
       "name": "telecom-chat",
       "image": "/images/telecom-chat.jpg"
     },
