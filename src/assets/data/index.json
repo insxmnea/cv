@@ -4,6 +4,10 @@
   },
   "projects": [
     {
+      "name": "todo-react",
+      "image": "/images/todo-react.jpg"
+    },
+    {
       "name": "rick-morty-characters",
       "image": "/images/rick-morty-characters.jpg"
     },
